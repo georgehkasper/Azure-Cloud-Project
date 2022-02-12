@@ -34,9 +34,9 @@ The configuration details of each machine may be found below.
 | Name                 | Function | IP Address   | Operating System   |
 |----------------------|----------|--------------|--------------------|
 | Jump Box Provisioner | VM       | 10.0.0.4     | Linux-Ubuntu 20.04 |
-| Web-1                | VM       | 10.0.0.5     | 52.161.26.25       |
-| Web-2                | VM       | 10.0.0.6     | 52.161.26.25       |
-| ELK                  | VM       | 52.161.26.25 | 52.161.26.25       |
+| Web-1                | VM       | 10.0.0.5     | Linux-Ubuntu 20.04 |
+| Web-2                | VM       | 10.0.0.6     | Linux-Ubuntu 20.04 |
+| ELK                  | VM       | 52.161.26.25 | Linux-Ubuntu 20.04 |
 
 ### Access Policies
 
