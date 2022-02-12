@@ -2,11 +2,12 @@
 
 The files in this repository were used to configure the network depicted below.
 
-Cybersecurity-BootcampDiagrams/redteamelkvnets.png
+![redteamelkvnets](https://user-images.githubusercontent.com/91142394/153730206-62795721-6d4d-4974-85cc-2011d21ab9b0.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Filebeat_and_metricbeat_playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-Cybersecurity-Bootcamp/Ansible/Filebeat_and_metricbeat_playbook
+<img width="419" alt="Filebeat_and_Metricbeat_Playbook" src="https://user-images.githubusercontent.com/91142394/153730220-00a5a6c3-d977-4c39-bae5-9320f49daa2a.png">
+
 
 This document contains the following details:
 - Description of the Topology
@@ -62,6 +63,8 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 By using Ansible to automate configuration, you can quickly setup and change the functions of a number of machines. 
 
+![configure elk vm playbook](https://user-images.githubusercontent.com/91142394/153730252-76fcde40-5c5b-4362-9a85-ba9905c102ae.png)
+
 The playbook implements the following tasks:
 - Install docker.io
 - Install python3
@@ -73,7 +76,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-Cybersecurity-Bootcamp/Ansible/ELK_instance_running
+<img width="1234" alt="ELK_instance_running" src="https://user-images.githubusercontent.com/91142394/153730226-4dea34e9-75e7-4458-92ab-87848efb7c9b.png">
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -109,3 +113,6 @@ http://52.161.26.25:5601/app/kibana
 As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.
 Navigate to /etc/ansible/roles on your ansible container in the Jump Box Provisioner and run:
 ansible-playbook filebeat-playbook.yml
+
+<img width="1916" alt="Metricbeat up and running" src="https://user-images.githubusercontent.com/91142394/153730237-74e95903-df64-4626-b55b-de517c6b7f17.png">
+
